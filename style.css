@@ -10,6 +10,7 @@ html{
 
 body{
     margin: 0%;
+    background-color: rgb(1, 79, 148);
 }
 
 .container{
@@ -17,15 +18,32 @@ body{
     flex-direction: column;
 }
 
-.new{
+.buttons{
     align-self: center;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .divContainer{
     align-self: center;
     display: flex;
+    flex-direction: column;
     width: 840px;
     height: 840px;
+    background-color: rgb(183, 188, 192);
+}
+
+.boxContainer{
+    display: flex;
+    flex: 1 1 auto;
+}
+
+.box{
+    border: solid 0.1px;
+    border-color: rgb(153, 153, 153);
+    height: auto;
+    width: auto;
+    flex: 1 1 auto;
+    margin: 0;
+
 }
