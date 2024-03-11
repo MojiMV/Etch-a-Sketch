@@ -1,0 +1,31 @@
+html{
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+
+body{
+    margin: 0%;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.new{
+    align-self: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.divContainer{
+    align-self: center;
+    display: flex;
+    width: 840px;
+    height: 840px;
+}
